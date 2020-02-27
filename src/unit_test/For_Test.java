@@ -15,7 +15,6 @@ class For_Test {
 		
 		Int_test t2 = new Int_test(100, 10);
 		assertEquals(t2.test_output(), -1);
-		
 	}
 
 }
