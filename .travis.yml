@@ -1,5 +1,9 @@
 language: java
-jdk: oraclejdk8
+script:
+  - jdk_switcher use oraclejdk8
+  - # do stuff with Java 8
+  - jdk_switcher use openjdk8
+  - # do stuff with open Java 8
 os: windows
 ./mvnw install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
 install: true
