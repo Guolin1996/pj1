@@ -1,1 +1,6 @@
 language: java
+jdk: oraclejdk8
+os: windows
+./mvnw install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+install: true
+script: ./mvnw clean install
