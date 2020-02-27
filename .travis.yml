@@ -1,2 +1,3 @@
 language: java
 jdk: oraclejdk8
+Script: java For_test.java
